@@ -1,8 +1,8 @@
 @media all and (max-width:767px) {}
 
-@media all and (min-width:768px) and (max-width:989px) {}
+@media all and (min-width:768px) and (max-width:990px) {}
 
-@media all and (min-width:990px) {
+@media all and (min-width:991px) {
     .header {
         width: 100%;
         height: 110px;
@@ -109,17 +109,18 @@
         letter-spacing: 1px;
         text-transform: uppercase;
         color: rgb(29, 73, 52);
-        -webkit-transition: all 200ms linear 0s;
-        transition: all 200ms linear 0s;
+        -webkit-transition: all 200ms ease 0s;
+        transition: all 200ms ease 0s;
+        
         
     }
     .outward-bottom:hover {
         color: rgb(99, 139, 24);
     }
-    .outward-bottom::after{
+     .outward-bottom::after{
         content: "";
         display:block;
-        /* width: 100%; */
+        /* width:100%; */
         height: 1px;
         position: absolute;
         bottom: 30px;
@@ -127,13 +128,44 @@
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
         transform-origin: left;
-        -webkit-transition: all 200ms linear 0s;
-        transition: all 200ms linear 0s;
+        -webkit-transition: all 200ms ease 0s;
+        transition: all 200ms ease 0s;
     }
     .outward-bottom:hover::after{
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
     }
+    .shop-button{
+        font-size:12px;
+        font-weight: 700px;
+        font-family: futura-pt, sans-serif;
+        text-transform: uppercase;
+        color: rgb(99, 139, 24);
+        letter-spacing: 1.5px;
+        -webkit-transition: all 200ms ease 0s;
+        transition: all 200ms ease 0s;
+    }
+    .shop-button:hover {
+        color: rgb(99, 139, 24);
+    }
+    .shop-button::after{
+        content: "";
+        display:block;
+        width: 100%;
+        height: 1px;
+        bottom: 30px;
+        background-color:rgb(99, 139, 24) ;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        transform-origin: left;
+        -webkit-transition: all 200ms ease 0s;
+        transition: all 200ms ease 0s;
+    }
+    .shop-button:hover::after{
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
 
 
 
