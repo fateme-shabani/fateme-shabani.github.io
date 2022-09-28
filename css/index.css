@@ -1,12 +1,13 @@
-
 @media all and (max-width:767px) {}
 
 @media all and (min-width:768px) and (max-width:990px) {}
 
 @media all and (min-width:991px) {
-    body{
+    body {
         width: 100%;
+        height: 1000vh;
     }
+
     .header {
         width: 100%;
         height: 110px;
@@ -85,28 +86,32 @@
     .outward-top-menu:hover {
         color: #638b18;
     }
-    .bottom-menu{
+
+    .bottom-menu {
         width: 762px;
         height: 48px;
         background-color: lightsalmon;
     }
-    .pc-menu{
+
+    .pc-menu {
         width: 742px;
         height: 48px;
         background-color: aliceblue;
     }
-    .ul-pc-menu{
+
+    .ul-pc-menu {
         width: 605px;
         height: 48px;
         background-color: lightgray;
     }
-    .li-pc-menu{
-        height: 101px;
+
+    .li-pc-menu {
         height: 59px;
     }
-    .outward-bottom{
+
+    .outward-bottom {
         font-family: futura-pt, sans-serif;
-        font-size:11px;
+        font-size: 12px;
         font-stretch: 100%;
         font-weight: 500;
         letter-spacing: 1px;
@@ -114,32 +119,36 @@
         color: rgb(29, 73, 52);
         -webkit-transition: all 200ms ease 0s;
         transition: all 200ms ease 0s;
-        
-        
+
+
     }
+
     .outward-bottom:hover {
         color: rgb(99, 139, 24);
     }
-     .outward-bottom::after{
+
+    .outward-bottom::after {
         content: "";
-        display:block;
+        display: block;
         /* width:100%; */
         height: 1px;
         position: absolute;
         bottom: 30px;
-        background-color:rgb(99, 139, 24) ;
+        background-color: rgb(99, 139, 24);
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
         transform-origin: left;
         -webkit-transition: all 200ms ease 0s;
         transition: all 200ms ease 0s;
     }
-    .outward-bottom:hover::after{
+
+    .outward-bottom:hover::after {
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
     }
-    .shop-button{
-        font-size:12px;
+
+    .shop-button {
+        font-size: 13px;
         font-weight: 700px;
         font-family: futura-pt, sans-serif;
         text-transform: uppercase;
@@ -148,31 +157,67 @@
         -webkit-transition: all 200ms ease 0s;
         transition: all 200ms ease 0s;
     }
+
     .shop-button:hover {
         color: rgb(99, 139, 24);
     }
-    .shop-button::after{
+
+    .shop-button::after {
         content: "";
-        display:block;
+        display: block;
         width: 100%;
         height: 1px;
         bottom: 30px;
-        background-color:rgb(99, 139, 24) ;
+        background-color: rgb(99, 139, 24);
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
         transform-origin: left;
         -webkit-transition: all 200ms ease 0s;
         transition: all 200ms ease 0s;
     }
-    .shop-button:hover::after{
+
+    .shop-button:hover::after {
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
     }
-   .search-icon{
-    /* font-size: 14px; */
-    color:rgb(29, 73, 52);
-    
-   }
+
+    .search-icon {
+        /* font-size: 14px; */
+        color: rgb(29, 73, 52);
+
+    }
+    .back-video{
+        z-index: -20;
+    }
+
+    .main-heading {
+        height: 550px;
+        
+    }
+
+    /* .video video {
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    h6 {
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+    .margin-t {
+        margin-top: 30px;
+
+    }
+
+    .font-h1 {
+        font-size: 66px;
+        letter-spacing: 1.5px;
+
+    } */
 
 
 
