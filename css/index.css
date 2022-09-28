@@ -5,7 +5,7 @@
 @media all and (min-width:991px) {
     body {
         width: 100%;
-        height: 1000vh;
+        height: 100vh;
     }
 
     .header {
@@ -191,33 +191,34 @@
     }
 
     .main-heading {
-        height: 550px;
-        
+        width: 541px;
+        height: 550px;   
     }
-
-    /* .video video {
-        width: 100%;
+    .main-title{
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
-
-    h1,
-    h2,
-    h6 {
-        text-align: center;
-        font-family: sans-serif;
-        color: white;
-        padding-bottom: 10px;
+    .font-heading{
+        font-family: "futura-pt", sans-serif;
+        font-stretch: 100%;
     }
-
-    .margin-t {
-        margin-top: 30px;
-
-    }
-
-    .font-h1 {
-        font-size: 66px;
+    .font-weight1{
+        font-weight: 400px;
         letter-spacing: 1.5px;
+        line-height: 25px;
+    }
+    .font-weight2{
+        font-weight: 700px;
+        letter-spacing:5px;
+        line-height: 78px;
+    }
+    .font-weight3{
+        font-weight: 600px;
+        line-height: 45px;
+        margin-bottom: 32px;
+    }
 
-    } */
+
 
 
 
