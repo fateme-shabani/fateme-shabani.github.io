@@ -166,6 +166,16 @@ h3,h6,p{
     font-family: adobe-garamond-pro, serif;
     line-height: 30px;
 }
+h2{
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.item-box{
+    width: 392px;
+    height: 296px;
+    background-color: pink;
+    top: 100px;
+}
 
 @media all and (min-width:768px) {
     body {
@@ -388,7 +398,14 @@ h3,h6,p{
         line-height: 45px;
         margin-bottom: 32px;
     }
-   
+   .our-product{
+    width: 1519px;
+    height: 1600px;
+    margin-top: 104px;
+    margin-bottom: 98px;
+
+   }
+
     
 
 
