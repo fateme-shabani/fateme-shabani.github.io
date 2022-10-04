@@ -34,6 +34,7 @@
 
 
     }
+
     .main-heading {
         width: 541px;
         margin-bottom: 120px;
@@ -118,6 +119,7 @@ body {
     transform: scaleX(1);
     color: white;
 }
+
 .box-link1 {
     width: 150px;
     height: 40px;
@@ -135,7 +137,7 @@ body {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-color: rgb(117, 161, 62,0.9);
+    background-color: rgb(117, 161, 62, 0.9);
     -webkit-transition: all 200ms ease 0s;
     transition: all 200ms ease 0s;
     -webkit-transform: scaleX(0);
@@ -158,7 +160,7 @@ body {
 }
 
 .pic {
-    -webkit-transition: all 200ms ease 0s;
+    -webkit-transition: all 300ms ease 0s;
     transition: all 300ms ease 0s;
 }
 
@@ -178,7 +180,10 @@ body {
     height: 166px;
     /* background-color: lightblue; */
 }
-h3,h6,p{
+
+h3,
+h6,
+p {
     font-stretch: 100%;
 }
 
@@ -199,27 +204,33 @@ h3,h6,p{
     line-height: 30px;
     font-family: "futura-pt", sans-serif;
 }
-.paragraph{
+
+.paragraph {
     font-family: adobe-garamond-pro, serif;
     line-height: 30px;
 }
-h2{
+
+h2 {
     letter-spacing: 1px;
     font-weight: 400;
 }
-.item-box{
+
+.item-box {
     width: 392px;
     height: 296px;
     /* background-color: pink; */
     top: 100px;
 }
-.border-color-all{
+
+.border-color-all {
     border-color: #476b5a !important;
 }
-.bg-box{
+
+.bg-box {
     background-color: #1d4934;
 }
-.text-box-item1{
+
+.text-box-item1 {
     font-family: "adobe-garamond-pro", serif;
     line-height: 36px;
     margin-bottom: 35px;
@@ -227,10 +238,32 @@ h2{
     font-weight: 400;
 }
 
+.zoom-product {
+    width: 283px;
+    height: 446px;
+}
+
+.pic-product {
+    -webkit-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s;
+}
+
+.zoom-product:hover .pic-product {
+
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.content-item {
+    width: 283px;
+    height:76px ;
+    top: 42px;
+}
+
 
 
 @media all and (min-width:768px) {
-   
+
 
     .header {
         width: 100%;
@@ -383,7 +416,7 @@ h2{
         color: rgb(99, 139, 24);
     }
 
-    .shop-button::after {
+    .shop-button::before {
         content: "";
         display: block;
         width: 100%;
@@ -397,7 +430,7 @@ h2{
         transition: all 200ms ease 0s;
     }
 
-    .shop-button:hover::after {
+    .shop-button:hover::before {
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
     }
@@ -447,15 +480,16 @@ h2{
         line-height: 45px;
         margin-bottom: 32px;
     }
-   .our-product{
-    width: 1519px;
-    height: 1600px;
-    margin-top: 104px;
-    margin-bottom: 98px;
 
-   }
+    .our-product {
+        width: 1519px;
+        height: 1600px;
+        margin-top: 104px;
+        margin-bottom: 98px;
 
-    
+    }
+
+
 
 
 
