@@ -78,6 +78,10 @@
 
     }
 } */
+body {
+    width: 100%;
+    height: 1000vh;
+}
 
 .box-link {
     width: 150px;
@@ -178,10 +182,7 @@ h2{
 }
 
 @media all and (min-width:768px) {
-    body {
-        width: 100%;
-        height: 1000vh;
-    }
+   
 
     .header {
         width: 100%;
