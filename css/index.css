@@ -121,8 +121,8 @@ body {
 }
 
 .box-link1 {
-    width: 150px;
-    height: 40px;
+    width: 167px;
+    height: 41px;
     line-height: 40px;
     background-color: transparent;
     font-size: 11px;
@@ -214,6 +214,10 @@ h2 {
     letter-spacing: 1px;
     font-weight: 400;
 }
+.our-product {
+    margin-top: 104px;
+    margin-bottom: 98px;
+}
 
 .item-box {
     width: 392px;
@@ -228,6 +232,10 @@ h2 {
 
 .bg-box {
     background-color: #1d4934;
+}
+#spacing{
+    letter-spacing: 4px;
+    font-weight: 400;
 }
 
 .text-box-item1 {
@@ -258,6 +266,26 @@ h2 {
     width: 283px;
     height:76px ;
     top: 42px;
+}
+
+.h3-product{
+    color: #1d4934 !important;
+    font-size: 20px !important;
+    margin-bottom: 20px;
+    letter-spacing: 2.2px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.view-item{
+    font-size: 12px;
+    font-family: futura-pt, sans-serif;
+    color: rgb(99, 148, 36) !important;
+    letter-spacing: 2.5px;
+    -webkit-transition:all 300ms ease-out 0 ;
+    transition: all 300ms ease-out 0;
+}
+.view-item:hover{
+    color:#1d4934 ;
 }
 
 
@@ -369,7 +397,7 @@ h2 {
         font-size: 12px;
         font-stretch: 100%;
         font-weight: 500;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         text-transform: uppercase;
         color: rgb(29, 73, 52);
         -webkit-transition: all 200ms ease 0s;
@@ -416,7 +444,7 @@ h2 {
         color: rgb(99, 139, 24);
     }
 
-    .shop-button::before {
+    .shop-button::after {
         content: "";
         display: block;
         width: 100%;
@@ -430,7 +458,7 @@ h2 {
         transition: all 200ms ease 0s;
     }
 
-    .shop-button:hover::before {
+    .shop-button:hover::after {
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
     }
@@ -481,22 +509,7 @@ h2 {
         margin-bottom: 32px;
     }
 
-    .our-product {
-        width: 1519px;
-        height: 1600px;
-        margin-top: 104px;
-        margin-bottom: 98px;
-
-    }
-
-
-
-
-
-
-
-
-
+  
 
 
 }
