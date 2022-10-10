@@ -371,17 +371,22 @@ h2 {
 .h3-virtualspace {
     font-weight: 400;
     letter-spacing: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
     font-family: futura-pt, sans-serif;
 }
-.h3-virtualspace::after{
+
+.h3-virtualspace::after {
     content: " ";
     display: block;
-    position: absolute;
     width: 45px;
-    height: 2px;
+    height: 2.5px;
+    /* margin: auto; */
+    position: absolute;
     background-color: #639424;
-    margin: auto;
+}
+.fb{
+    background: url(../images/social-icons.png) -73px 3px;
+    /* background-position: -67px -4px; */
 }
 
 
