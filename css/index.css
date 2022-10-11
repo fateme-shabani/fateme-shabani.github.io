@@ -217,7 +217,8 @@ p {
 .paragraph {
     font-family: adobe-garamond-pro, serif;
     line-height: 30px;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 h2 {
@@ -263,7 +264,8 @@ h2 {
     height: 446px;
 }
 
-.zoom-man,.zoom-woman{
+.zoom-man,
+.zoom-woman {
     height: 400px;
 }
 
@@ -277,14 +279,16 @@ h2 {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-.pic-woman{
+
+.pic-woman {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
 .pic-product,
 .pic,
-.pic-man,.pic-woman {
+.pic-man,
+.pic-woman {
     -webkit-transition: all 300ms ease-out 0s;
     transition: all 300ms ease-out 0s;
 }
@@ -299,6 +303,7 @@ h2 {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
+
 .zoom-woman:hover .pic-woman {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -376,7 +381,7 @@ h2 {
     height: 280px;
 }
 
-.h3-virtualspace {
+.h3-virtualspace,.h3-virtualspace-end {
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: 30px !important;
@@ -393,11 +398,13 @@ h2 {
     position: absolute;
     background-color: #639424;
 }
-.fb{
+
+.fb {
     background: url(../images/social-icons.png) -73px 3px;
     /* background-position: -67px -4px; */
 }
-.green-pic2{
+
+.green-pic2 {
     height: 651px;
     left: 12px;
     background-color: #1d492e;
@@ -406,12 +413,14 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.paragraph-green-box{
-    font-family:"garamond-premier-pro", serif;
+
+.paragraph-green-box {
+    font-family: "garamond-premier-pro", serif;
     font-size: 18px;
     letter-spacing: 1px;
 }
-.box-more{
+
+.box-more {
     width: 139px;
     height: 41px;
     font-size: 11px;
@@ -422,27 +431,40 @@ h2 {
     border-color: rgb(117, 161, 62) !important;
     font-family: "futura-pt", sans-serif;
 }
-.box-more::before{
+
+.box-more::before {
     content: "";
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-color: rgb(117, 161, 62,0.5);
+    background-color: rgb(117, 161, 62, 0.5);
     -webkit-transition: all 200ms ease 0s;
     transition: all 200ms ease 0s;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     transform-origin: left;
     position: absolute;
-    z-index:2;
+    z-index: 2;
     left: 0;
     top: 0;
 }
+
 .box-more:hover::before {
     color: white;
     -webkit-transform: scaleX(1);
-    transform: scaleX(1);  
+    transform: scaleX(1);
 }
+
+.green-pic3 {
+    height: 651px;
+    right: 12px;
+    background-color: #1d492e;
+    background-image: url(../images/18.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
 
