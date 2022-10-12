@@ -272,7 +272,6 @@ h2 {
 .pic-product {
     -webkit-transform: scale(1);
     transform: scale(1);
-
 }
 
 .pic-man {
@@ -288,7 +287,8 @@ h2 {
 .pic-product,
 .pic,
 .pic-man,
-.pic-woman {
+.pic-woman,
+.pic-factory {
     -webkit-transition: all 300ms ease-out 0s;
     transition: all 300ms ease-out 0s;
 }
@@ -298,6 +298,7 @@ h2 {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
 
 .zoom-man:hover .pic-man {
     -webkit-transform: scale(1.3);
@@ -381,7 +382,8 @@ h2 {
     height: 280px;
 }
 
-.h3-virtualspace,.h3-virtualspace-end {
+.h3-virtualspace,
+.h3-virtualspace-end {
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: 30px !important;
@@ -464,7 +466,40 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* .test{
+    width: 380px;
+    height: 320px;
+} */
+.zoom-factory {
+    width: 380px;
+    height: 286px;
+}
 
+.pic-factory {
+   
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.zoom-factory:hover .pic-factory {
+
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+.content-box-factor{
+    width: 355px;
+    height: 286px;
+    padding: 25px 35px;
+}
+
+.h3-factory {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 1.8px;
+    color: rgb(29, 73, 52);
+    font-family: futura-pt, sans-serif;
+}
 
 
 
