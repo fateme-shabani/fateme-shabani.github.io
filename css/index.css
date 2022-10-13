@@ -96,6 +96,18 @@ body {
     font-family: "futura-pt", sans-serif;
 
 }
+.box-link-end {
+    width: 139px;
+    height: 41px;
+    line-height: 40px;
+    background-color: white;
+    font-size: 11px;
+    color: rgb(29, 73, 52);
+    letter-spacing: 1.5px;
+    border-color: rgb(117, 161, 62) !important;
+    font-family: "futura-pt", sans-serif;
+
+}
 
 .box-link::before {
     content: "";
@@ -434,6 +446,7 @@ h2 {
     font-family: "futura-pt", sans-serif;
 }
 
+
 .box-more::before {
     content: "";
     display: inline-block;
@@ -498,7 +511,7 @@ h2 {
     transform: scale(1.1);
 }
 .content-box-factor{
-    width: 356px;
+    width: 380px;
     height: 286px;
     padding: 25px 35px;
 }
@@ -529,7 +542,7 @@ h2 {
 .date:hover{
     color: black;
 }
-.Dimensions{
+/* .Dimensions{
     width: 380px;
     height: 606px;
 }
@@ -544,8 +557,43 @@ h2 {
 .zoom:hover .Dimensions-img{
     -webkit-transform:scale(1.2) ;
     transform: scale(1.2);
+} */
+.box-link-end {
+    width: 139px;
+    height: 41px;
+    line-height: 40px;
+    background-color: white;
+    font-size: 11px;
+    color: rgb(29, 73, 52);
+    letter-spacing: 1.5px;
+    border-color: rgb(117, 161, 62) !important;
+    font-family: "futura-pt", sans-serif;
+    
+
 }
 
+.box-link-end::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(117, 161, 62, 0.9);
+    -webkit-transition: all 200ms ease 0s;
+    transition: all 200ms ease 0s;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transform-origin: left;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+
+.box-link-end:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    color: white;
+}
 
 
 @media all and (min-width:768px) {
