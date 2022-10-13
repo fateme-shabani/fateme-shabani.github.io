@@ -81,7 +81,7 @@
 } */
 body {
     width: 100%;
-    height: 1000vh;
+    height: 100vh;
 }
 
 .box-link {
@@ -594,7 +594,33 @@ h2 {
     transform: scaleX(1);
     color: white;
 }
-
+.bg-footer{
+    width: 100%;
+    height: 235px;
+    background-color: #1d4934;
+}
+.top-footer{
+    border-color: #a5b6ae !important;
+    padding-bottom: 20px;
+}
+.a-logo-link{
+    width: 379px;
+    height: 82px;
+}
+.Dimensions-pic{
+    width: 41%;
+}
+.social-btn{
+    width: 230px;
+    height: 81px;
+}
+.list{
+    list-style-type: none;
+}
+.shop-btn{
+    width: 379px;
+    height: 41px;
+}
 
 @media all and (min-width:768px) {
 
@@ -611,14 +637,14 @@ h2 {
     .header-main {
         width: 1000px;
         height: 90px;
-        background-color: aqua;
+        /* background-color: aqua; */
 
     }
 
     .logo {
         width: 137px;
         height: 80px;
-        background-color: red;
+        /* background-color: red; */
 
     }
 
@@ -633,13 +659,13 @@ h2 {
     .header-menu {
         width: 762px;
         height: 90px;
-        background-color: greenyellow;
+        /* background-color: greenyellow; */
     }
 
     .top-menu {
         width: 762px;
         height: 42px;
-        background-color: blanchedalmond;
+        /* background-color: blanchedalmond; */
     }
 
     ul {
@@ -679,19 +705,19 @@ h2 {
     .bottom-menu {
         width: 762px;
         height: 48px;
-        background-color: lightsalmon;
+        /* background-color: lightsalmon; */
     }
 
     .pc-menu {
         width: 742px;
         height: 48px;
-        background-color: aliceblue;
+        /* background-color: aliceblue; */
     }
 
     .ul-pc-menu {
         width: 605px;
         height: 48px;
-        background-color: lightgray;
+        /* background-color: lightgray; */
     }
 
     .li-pc-menu {
