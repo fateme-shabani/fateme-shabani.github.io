@@ -288,7 +288,7 @@ h2 {
 .pic,
 .pic-man,
 .pic-woman,
-.pic-factory {
+.pic-factory,.pic-factory-gril,.Dimensions-img {
     -webkit-transition: all 300ms ease-out 0s;
     transition: all 300ms ease-out 0s;
 }
@@ -486,8 +486,19 @@ h2 {
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
+.pic-factory-gril {
+   
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.zoom-factory:hover .pic-factory-gril {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 .content-box-factor{
-    width: 355px;
+    width: 356px;
     height: 286px;
     padding: 25px 35px;
 }
@@ -496,23 +507,44 @@ h2 {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 1.8px;
+    letter-spacing: 1.5px;
     color: rgb(29, 73, 52);
     font-family: futura-pt, sans-serif;
 }
+
 .paragraph-factory{
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 26px;
     font-family: "adobe-garamond-pro", serif;
 }
-.ip-contenet{
+.date{
+    font-size: 12px;
+    font-weight: 700;
     font-family: futura-pt, sans-serif;
     letter-spacing: 2.2px;
     color: rgb(99, 139, 24);
 }
+.date:hover{
+    color: black;
+}
+.Dimensions{
+    width: 380px;
+    height: 606px;
+}
+.zoom{
+    height: 286px;
+}
+.Dimensions-img{
+    -webkit-transform:scale(1.1) ;
+   transform: scale(1.1);
+}
 
-
+.zoom:hover .Dimensions-img{
+    -webkit-transform:scale(1.2) ;
+    transform: scale(1.2);
+}
 
 
 
