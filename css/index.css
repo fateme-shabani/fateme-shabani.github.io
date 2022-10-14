@@ -30,7 +30,7 @@
     .box-link:hover::before {
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
-        color: white;
+        color: white !important;
 
 
     }
@@ -130,7 +130,7 @@ body {
 .box-link:hover::before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    color: white;
+    color: white !important;
 }
 
 .box-link1 {
@@ -163,7 +163,7 @@ body {
 }
 
 .box-link1:hover {
-    color: white;
+    color: white !important;
 }
 
 .box-link1:hover::before {
@@ -303,7 +303,7 @@ h2 {
 .pic-woman,
 .pic-factory,
 .pic-factory-gril,
-.Dimensions-img,.footer-link {
+.Dimensions-img,.footer-link,.view-item {
     -webkit-transition: all 300ms ease-out 0s;
     transition: all 300ms ease-out 0s;
 }
@@ -344,13 +344,13 @@ h2 {
     font-size: 12px;
     font-family: futura-pt, sans-serif;
     color: rgb(99, 148, 36) !important;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     -webkit-transition: all 300ms ease-out 0;
     transition: all 300ms ease-out 0;
 }
 
 .view-item:hover {
-    color: #1d4934;
+    color: #1d4934 !important;
 }
 
 .paragraph-content {
