@@ -8,7 +8,6 @@
         letter-spacing: 1.5px;
         border-color: rgb(117, 161, 62) !important;
         font-family: "futura-pt", sans-serif;
-
     }
 
     .box-link::before {
@@ -41,44 +40,6 @@
     }
 }
 
-/* 
-@media all and (min-width:768px) and (max-width:990px) {
-    .box-link {
-        width: 150px;
-        height: 40px;
-        line-height: 40px;
-        background-color: white;
-        font-size: 12px;
-        letter-spacing: 1.5px;
-        border-color: rgb(117, 161, 62) !important;
-        font-family: "futura-pt", sans-serif;
-
-    }
-
-    .box-link::before {
-        content: "";
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(117, 161, 62);
-        -webkit-transition: all 200ms ease 0s;
-        transition: all 200ms ease 0s;
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        transform-origin: left;
-        position: absolute;
-        z-index: -1;
-        left: 0;
-    }
-
-    .box-link:hover::before {
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-        color: white;
-
-
-    }
-} */
 body {
     width: 100%;
     height: 100vh;
@@ -94,7 +55,6 @@ body {
     letter-spacing: 1.5px;
     border-color: rgb(117, 161, 62) !important;
     font-family: "futura-pt", sans-serif;
-
 }
 
 .box-link-end {
@@ -107,7 +67,6 @@ body {
     letter-spacing: 1.5px;
     border-color: rgb(117, 161, 62) !important;
     font-family: "futura-pt", sans-serif;
-
 }
 
 .box-link::before {
@@ -142,7 +101,6 @@ body {
     letter-spacing: 1.5px;
     border-color: rgb(117, 161, 62) !important;
     font-family: "futura-pt", sans-serif;
-
 }
 
 .box-link1::before {
@@ -180,11 +138,6 @@ body {
     width: 760px;
     height: 400px;
 }
-
-/* .pic{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-} */
 
 .w-img:hover .pic {
 
@@ -247,7 +200,6 @@ h2 {
 .item-box {
     width: 392px;
     height: 296px;
-    /* background-color: pink; */
     top: 100px;
 }
 
@@ -303,7 +255,9 @@ h2 {
 .pic-woman,
 .pic-factory,
 .pic-factory-gril,
-.Dimensions-img,.footer-link,.view-item {
+.Dimensions-img,
+.footer-link,
+.view-item {
     -webkit-transition: all 300ms ease-out 0s;
     transition: all 300ms ease-out 0s;
 }
@@ -411,6 +365,7 @@ h2 {
     width: 45px;
     height: 2.5px;
     margin-top: 30px;
+    text-align: center;
     /* margin: auto; */
     position: absolute;
     background-color: #639424;
@@ -483,10 +438,6 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* .test{
-    width: 380px;
-    height: 320px;
-} */
 .zoom-factory {
     width: 380px;
     height: 286px;
@@ -552,22 +503,6 @@ h2 {
     color: black;
 }
 
-/* .Dimensions{
-    width: 380px;
-    height: 606px;
-}
-.zoom{
-    height: 286px;
-}
-.Dimensions-img{
-    -webkit-transform:scale(1.1) ;
-   transform: scale(1.1);
-}
-
-.zoom:hover .Dimensions-img{
-    -webkit-transform:scale(1.2) ;
-    transform: scale(1.2);
-} */
 .box-link-end {
     width: 139px;
     height: 41px;
@@ -578,8 +513,6 @@ h2 {
     letter-spacing: 1.5px;
     border-color: rgb(117, 161, 62) !important;
     font-family: "futura-pt", sans-serif;
-
-
 }
 
 .box-link-end::before {
@@ -645,6 +578,10 @@ h2 {
     margin-left: 100px;
     margin-right: 100px;
 }
+.list-type{
+    list-style-type: none;
+
+}
 
 .footer-link {
     font-size: 12px;
@@ -656,7 +593,7 @@ h2 {
 }
 
 
-@media all and (min-width:768px) {
+/* @media all and (min-width:768px) {
 
 
     .header {
@@ -671,14 +608,12 @@ h2 {
     .header-main {
         width: 1000px;
         height: 90px;
-        /* background-color: aqua; */
 
     }
 
     .logo {
         width: 137px;
         height: 80px;
-        /* background-color: red; */
 
     }
 
@@ -693,13 +628,11 @@ h2 {
     .header-menu {
         width: 762px;
         height: 90px;
-        /* background-color: greenyellow; */
     }
 
     .top-menu {
         width: 762px;
         height: 42px;
-        /* background-color: blanchedalmond; */
     }
 
     ul {
@@ -739,19 +672,16 @@ h2 {
     .bottom-menu {
         width: 762px;
         height: 48px;
-        /* background-color: lightsalmon; */
     }
 
     .pc-menu {
         width: 742px;
         height: 48px;
-        /* background-color: aliceblue; */
     }
 
     .ul-pc-menu {
         width: 605px;
         height: 48px;
-        /* background-color: lightgray; */
     }
 
     .li-pc-menu {
@@ -878,4 +808,99 @@ h2 {
 
 
 
+} */
+
+
+.logo {
+    width: 137px;
+    height: 80px;
+}
+.outward-top{
+    font-size: 12px;
+        font-weight: 400;
+        color: rgb(29, 73, 52) !important;
+        font-family: futura-pt, sans-serif;
+        letter-spacing: 0.9px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        -webkit-transition: all 200ms ease-out 0s;
+        transition: all 200ms ease-out 0s;
+}
+.outward-top:hover {
+    color: #638b18 !important;
+}
+.test{
+    margin-top: -20px;
+}
+.outward-bottom{
+    font-family: futura-pt, sans-serif;
+    font-size: 12px;
+    font-stretch: 100%;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: rgb(29, 73, 52);
+    -webkit-transition: all 200ms ease 0s;
+    transition: all 200ms ease 0s;
+}
+.outward-bottom:hover {
+    color: #638b18 !important;
+}
+.menu-item::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    bottom: 30px;
+    background-color: rgb(99, 139, 24);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transform-origin: left;
+    -webkit-transition: all 200ms ease 0s;
+    transition: all 200ms ease 0s;
+}
+
+.menu-item:hover::after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.shop-button {
+    font-size: 13px;
+    font-weight: 700px;
+    font-family: futura-pt, sans-serif;
+    text-transform: uppercase;
+    color: rgb(99, 139, 24);
+    letter-spacing: 1.5px;
+    -webkit-transition: all 200ms ease 0s;
+    transition: all 200ms ease 0s;
+}
+
+.shop-button:hover {
+    color: rgb(99, 139, 24);
+}
+
+.shop-button::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    bottom: 30px;
+    background-color: rgb(99, 139, 24);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transform-origin: left;
+    -webkit-transition: all 200ms ease 0s;
+    transition: all 200ms ease 0s;
+}
+
+.shop-button:hover::after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+@media all and (min-width:1300px) {
+    .sizing{
+        margin-right: 80px !important;
+    }
+   
 }
